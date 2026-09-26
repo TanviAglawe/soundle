@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Soundle — Guess</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <header class="navbar">
+
+        <a href="/" class="logo">
+            SOUNDLE
+        </a>
+
+        <div class="nav-text">
+            {{ attempts_left }} GUESSES LEFT
+        </div>
+
+    </header>
+
+
+    <main class="game-content">
+
+        <div class="game-heading">
+
+            <div class="eyebrow">
+                KEEP GOING
+            </div>
+
+            <h1>
+                How close<br>
+                are you?
+            </h1>
+
+            <p>
+                The colors show you how close your
+                previous guesses are.
+            </p>
+
+        </div>
+
+
+        <section class="guess-list">
+
+            {% for item in guesses %}
+
+            <div class="guess-card">
+
+                <div class="artist-side">
+
+                    <div class="artist-photo">
+
+                        <span>
+                            {{ item.artist.name[0] }}
+                        </span>
+
+                    </div>
+
+                    <div class="artist-name">
+                        {{ item.artist.name }}
+                    </div>
+
+                </div>
+
+
+                <div class="artist-details">
+
+                    <div class="detail
+                        {{ item.comparison.genre }}">
+
+                        <span>GENRE</span>
+
+                        <strong>
+                            {{ item.artist.genre }}
+                        </strong>
+
+                    </div>
+
+
+                    <div class="detail
+                        {{ item.comparison.country }}">
+
+                        <span>COUNTRY</span>
+
+                        <strong>
+                            {{ item.artist.country }}
+                        </strong>
+
+                    </div>
+
+
+                    <div class="detail
+                        {{ item.comparison.debut_year }}">
+
+                        <span>DEBUT</span>
+
+                        <strong>
+                            {{ item.artist.debut_year }}
+                        </strong>
+
+                    </div>
+
+
+                    <div class="detail
+                        {{ item.comparison.artist_type }}">
+
+                        <span>TYPE</span>
+
+                        <strong>
+                            {{ item.artist.artist_type }}
+                        </strong>
+
+                    </div>
+
+
+                    <div class="detail
+                        {{ item.comparison.popularity }}">
+
+                        <span>POPULARITY</span>
+
+                        <strong>
+                            {{ item.artist.popularity }}
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </section>
+
+
+        {% if attempts_left > 0 %}
+
+        <section class="next-guess">
+
+            <div class="small-label">
+                NEXT GUESS
+            </div>
+
+
+            <form
+                action="{{ url_for('make_guess') }}"
+                method="POST"
+                class="guess-form"
+            >
+
+                <div class="autocomplete">
+
+                    <input
+                        id="artistInput"
+                        type="text"
+                        name="artist"
+                        placeholder="Try another artist..."
+                        autocomplete="off"
+                        required
+                    >
+
+                    <div
+                        id="suggestions"
+                        class="suggestions"
+                    ></div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="guess-button"
+                >
+                    GUESS →
+                </button>
+
+            </form>
+
+        </section>
+
+        {% endif %}
+
+
+        <div class="legend">
+
+            <div>
+                <span class="legend-color correct"></span>
+                Exact match
+            </div>
+
+            <div>
+                <span class="legend-color close"></span>
+                Close
+            </div>
+
+            <div>
+                <span class="legend-color wrong"></span>
+                Different
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Taylor Swift",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2006,
+    "artist_type": "Solo",
+    "popularity": 100,
+    "hints": [
+      "Her earliest stories were written long before the stadiums.",
+      "She turned personal stories into songs known around the world.",
+      "Her career began with country roots before reaching global pop."
+    ]
+  },
+  {
+    "name": "Ariana Grande",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2013,
+    "artist_type": "Solo",
+    "popularity": 96,
+    "hints": [
+      "Her voice became recognizable before her music career fully took off.",
+      "She moved from television into one of pop's biggest careers.",
+      "Her vocal range became one of her biggest signatures."
+    ]
+  },
+  {
+    "name": "Dua Lipa",
+    "genre": "Pop",
+    "country": "UK",
+    "debut_year": 2015,
+    "artist_type": "Solo",
+    "popularity": 95,
+    "hints": [
+      "Her rise began in the UK before becoming global.",
+      "She became closely associated with modern dance-pop.",
+      "Her career took off with a sound built for both radio and the dance floor."
+    ]
+  },
+  {
+    "name": "The Weeknd",
+    "genre": "R&B",
+    "country": "Canada",
+    "debut_year": 2011,
+    "artist_type": "Solo",
+    "popularity": 98,
+    "hints": [
+      "His mysterious beginnings eventually became impossible to ignore.",
+      "His music often combines darker themes with polished pop.",
+      "His stage name became one of the most recognizable in modern music."
+    ]
+  },
+  {
+    "name": "Billie Eilish",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2015,
+    "artist_type": "Solo",
+    "popularity": 94,
+    "hints": [
+      "She became known for making quiet sounds feel huge.",
+      "Her music career began remarkably young.",
+      "Her style often mixes minimal production with darker themes."
+    ]
+  },
+  {
+    "name": "Bruno Mars",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2010,
+    "artist_type": "Solo",
+    "popularity": 97,
+    "hints": [
+      "His sound often looks backward while staying firmly in modern pop.",
+      "He built a reputation around energetic performances and old-school influences.",
+      "His songs often mix funk, soul and pop."
+    ]
+  },
+  {
+    "name": "Ed Sheeran",
+    "genre": "Pop",
+    "country": "UK",
+    "debut_year": 2011,
+    "artist_type": "Solo",
+    "popularity": 96,
+    "hints": [
+      "A guitar and a loop pedal became part of his early identity.",
+      "His songwriting often turns ordinary experiences into huge sing-alongs.",
+      "He went from small performances to some of the world's biggest stages."
+    ]
+  },
+  {
+    "name": "Lady Gaga",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2008,
+    "artist_type": "Solo",
+    "popularity": 95,
+    "hints": [
+      "Her early image was almost as memorable as her music.",
+      "She became known for turning pop performances into spectacles.",
+      "Her career has moved between pop, jazz and film."
+    ]
+  },
+  {
+    "name": "Justin Bieber",
+    "genre": "Pop",
+    "country": "Canada",
+    "debut_year": 2009,
+    "artist_type": "Solo",
+    "popularity": 94,
+    "hints": [
+      "His career began after people discovered him online.",
+      "He became a global pop name while still very young.",
+      "His early internet fame turned into a long-running mainstream career."
+    ]
+  },
+  {
+    "name": "Rihanna",
+    "genre": "Pop",
+    "country": "Barbados",
+    "debut_year": 2005,
+    "artist_type": "Solo",
+    "popularity": 99,
+    "hints": [
+      "Her career began on a Caribbean island before becoming worldwide.",
+      "She moved comfortably between pop and R&B influences.",
+      "Her music career became only one part of a much larger public presence."
+    ]
+  },
+  {
+    "name": "Beyonce",
+    "genre": "R&B",
+    "country": "USA",
+    "debut_year": 2003,
+    "artist_type": "Solo",
+    "popularity": 100,
+    "hints": [
+      "Before going solo, she was already part of a major girl group.",
+      "Her performances became known for their scale and precision.",
+      "Her career moved from group success into major solo projects."
+    ]
+  },
+  {
+    "name": "Drake",
+    "genre": "Hip-Hop",
+    "country": "Canada",
+    "debut_year": 2009,
+    "artist_type": "Solo",
+    "popularity": 99,
+    "hints": [
+      "His first major public identity came from television.",
+      "He built a sound that frequently moves between rap and singing.",
+      "Toronto became strongly connected with his musical identity."
+    ]
+  },
+  {
+    "name": "Kendrick Lamar",
+    "genre": "Hip-Hop",
+    "country": "USA",
+    "debut_year": 2011,
+    "artist_type": "Solo",
+    "popularity": 96,
+    "hints": [
+      "His music often focuses on storytelling and social themes.",
+      "His hometown became an important part of his artistic identity.",
+      "He rose from mixtapes to becoming a major name in rap."
+    ]
+  },
+  {
+    "name": "Eminem",
+    "genre": "Hip-Hop",
+    "country": "USA",
+    "debut_year": 1999,
+    "artist_type": "Solo",
+    "popularity": 98,
+    "hints": [
+      "A film later told a fictionalized version of his early struggle.",
+      "His rapid-fire delivery became one of his most recognizable traits.",
+      "Detroit played an important role in his rise."
+    ]
+  },
+  {
+    "name": "Post Malone",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2015,
+    "artist_type": "Solo",
+    "popularity": 94,
+    "hints": [
+      "His sound refuses to stay inside one musical box.",
+      "His music often moves between hip-hop, pop and rock.",
+      "His distinctive look became almost as recognizable as his sound."
+    ]
+  },
+  {
+    "name": "Harry Styles",
+    "genre": "Pop",
+    "country": "UK",
+    "debut_year": 2017,
+    "artist_type": "Solo",
+    "popularity": 95,
+    "hints": [
+      "His solo career came after years of success in a famous boy band.",
+      "His solo sound developed a connection with classic rock and pop.",
+      "He became known for blending vintage influences with modern pop."
+    ]
+  },
+  {
+    "name": "Adele",
+    "genre": "Pop",
+    "country": "UK",
+    "debut_year": 2008,
+    "artist_type": "Solo",
+    "popularity": 98,
+    "hints": [
+      "Her voice became associated with songs about heartbreak and relationships.",
+      "She built a global career around powerful ballads.",
+      "Her album titles have famously been tied to numbers."
+    ]
+  },
+  {
+    "name": "Coldplay",
+    "genre": "Rock",
+    "country": "UK",
+    "debut_year": 2000,
+    "artist_type": "Band",
+    "popularity": 97,
+    "hints": [
+      "Their concerts became known for turning entire stadiums into light shows.",
+      "The band began with a more atmospheric alternative sound.",
+      "Their music grew from intimate songs to huge anthems."
+    ]
+  },
+  {
+    "name": "Imagine Dragons",
+    "genre": "Rock",
+    "country": "USA",
+    "debut_year": 2012,
+    "artist_type": "Band",
+    "popularity": 93,
+    "hints": [
+      "Their sound often combines rock with large-scale production.",
+      "Their breakthrough brought an alternative sound into mainstream radio.",
+      "Their biggest songs are built around dramatic, stadium-sized energy."
+    ]
+  },
+  {
+    "name": "Maroon 5",
+    "genre": "Pop",
+    "country": "USA",
+    "debut_year": 2002,
+    "artist_type": "Band",
+    "popularity": 92,
+    "hints": [
+      "The group began with a more rock-oriented sound.",
+      "Their frontman later became a familiar face on television.",
+      "Their music gradually moved toward mainstream pop."
+    ]
+  },
+  {
+    "name": "SZA",
+    "genre": "R&B",
+    "country": "USA",
+    "debut_year": 2017,
+    "artist_type": "Solo",
+    "popularity": 93,
+    "hints": [
+      "Her music often explores complicated relationships and emotions.",
+      "Her sound blends modern R&B with alternative influences.",
+      "Her stage name is made from letters rather than a traditional first name."
+    ]
+  },
+  {
+    "name": "Travis Scott",
+    "genre": "Hip-Hop",
+    "country": "USA",
+    "debut_year": 2015,
+    "artist_type": "Solo",
+    "popularity": 94,
+    "hints": [
+      "His music is closely associated with Houston.",
+      "His concerts became known for massive visual production.",
+      "His stage name is connected to someone from his family."
+    ]
+  },
+  {
+    "name": "Nicki Minaj",
+    "genre": "Hip-Hop",
+    "country": "USA",
+    "debut_year": 2010,
+    "artist_type": "Solo",
+    "popularity": 95,
+    "hints": [
+      "Her many alter egos became part of her artistic identity.",
+      "She became one of the most recognizable female voices in modern rap.",
+      "Her career grew from mixtapes into major pop collaborations."
+    ]
+  },
+
+  {
+    "name": "Arijit Singh",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 2011,
+    "artist_type": "Solo",
+    "popularity": 99,
+    "hints": [
+      "His voice became closely associated with modern Hindi film romance.",
+      "He became one of the most familiar voices in Indian playback singing.",
+      "Many of his biggest songs are known for their emotional delivery."
+    ]
+  },
+  {
+    "name": "Shreya Ghoshal",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 2002,
+    "artist_type": "Solo",
+    "popularity": 98,
+    "hints": [
+      "Her playback career began remarkably early.",
+      "Her voice has travelled across many Indian film soundtracks.",
+      "She became known for powerful vocals across romantic and classical-influenced songs."
+    ]
+  },
+  {
+    "name": "Sonu Nigam",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 1992,
+    "artist_type": "Solo",
+    "popularity": 94,
+    "hints": [
+      "His career stretches across several generations of Hindi music.",
+      "He became known for both romantic songs and powerful live performances.",
+      "His career includes playback singing as well as work beyond film music."
+    ]
+  },
+  {
+    "name": "Neha Kakkar",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 2008,
+    "artist_type": "Solo",
+    "popularity": 92,
+    "hints": [
+      "She began performing before becoming a familiar Bollywood voice.",
+      "Her songs often bring high energy to mainstream Hindi music.",
+      "Reality television was part of her early musical journey."
+    ]
+  },
+  {
+    "name": "Armaan Malik",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 2011,
+    "artist_type": "Solo",
+    "popularity": 88,
+    "hints": [
+      "He began singing professionally at a very young age.",
+      "His voice became familiar through Hindi film songs.",
+      "He has also explored music beyond the Indian film industry."
+    ]
+  },
+  {
+    "name": "Sunidhi Chauhan",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 1999,
+    "artist_type": "Solo",
+    "popularity": 94,
+    "hints": [
+      "Her voice became strongly associated with energetic Hindi film songs.",
+      "She is known for a powerful and versatile vocal style.",
+      "Her career began while she was still very young."
+    ]
+  },
+  {
+    "name": "Vishal Dadlani",
+    "genre": "Bollywood",
+    "country": "India",
+    "debut_year": 1994,
+    "artist_type": "Solo",
+    "popularity": 87,
+    "hints": [
+      "His career connects Indian film music with rock influences.",
+      "He is known for a powerful voice and energetic performances.",
+      "He has also been part of a well-known music duo."
+    ]
+  },
+  {
+    "name": "Diljit Dosanjh",
+    "genre": "Punjabi",
+    "country": "India",
+    "debut_year": 2004,
+    "artist_type": "Solo",
+    "popularity": 93,
+    "hints": [
+      "His career moves between Punjabi music, films and international stages.",
+      "His music helped bring Punjabi pop to a wider global audience.",
+      "He is equally recognizable for his music and colorful stage style."
+    ]
+  },
+  {
+    "name": "AP Dhillon",
+    "genre": "Punjabi",
+    "country": "India",
+    "debut_year": 2019,
+    "artist_type": "Solo",
+    "popularity": 90,
+    "hints": [
+      "His rise was strongly connected to streaming and online music culture.",
+      "His sound helped bring Punjabi music to younger global listeners.",
+      "His career grew internationally from the Punjabi music scene."
+    ]
+  },
+  {
+    "name": "Badshah",
+    "genre": "Hip-Hop",
+    "country": "India",
+    "debut_year": 2006,
+    "artist_type": "Solo",
+    "popularity": 91,
+    "hints": [
+      "His music often blends Indian pop with rap.",
+      "He became known for songs that dominate parties and mainstream playlists.",
+      "His stage name sounds much more royal than his real name."
+    ]
+  }
+]

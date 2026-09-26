@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Soundle — Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <header class="navbar">
+
+        <a href="/" class="logo">
+            SOUNDLE
+        </a>
+
+        <div class="nav-text">
+            RESULT
+        </div>
+
+    </header>
+
+
+    <main class="result-content">
+
+        {% if won %}
+
+        <div class="eyebrow">
+            YOU GOT IT
+        </div>
+
+        <h1>
+            Mystery<br>
+            solved.
+        </h1>
+
+        <p class="result-description">
+            You found the artist in {{ guesses }}
+            guess{% if guesses != 1 %}es{% endif %}.
+        </p>
+
+        {% else %}
+
+        <div class="eyebrow">
+            GAME OVER
+        </div>
+
+        <h1>
+            The artist<br>
+            was...
+        </h1>
+
+        <p class="result-description">
+            Better luck next time.
+        </p>
+
+        {% endif %}
+
+
+        <section class="answer-card">
+
+            <div class="answer-photo">
+
+                <span>
+                    {{ answer.name[0] }}
+                </span>
+
+            </div>
+
+
+            <div class="answer-info">
+
+                <div class="small-label">
+                    MYSTERY ARTIST
+                </div>
+
+                <h2>
+                    {{ answer.name }}
+                </h2>
+
+                <div class="answer-tags">
+
+                    <span>
+                        {{ answer.genre }}
+                    </span>
+
+                    <span>
+                        {{ answer.country }}
+                    </span>
+
+                    <span>
+                        {{ answer.debut_year }}
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="score">
+
+            <span>
+                YOUR SCORE
+            </span>
+
+            <strong>
+                {{ score }}
+            </strong>
+
+        </section>
+
+
+        <a
+            href="{{ url_for('home') }}"
+            class="play-again"
+        >
+            PLAY AGAIN →
+        </a>
+
+    </main>
+
+
+    <footer>
+
+        <span>SOUNDLE</span>
+
+        <span>FIND THE SOUND</span>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>

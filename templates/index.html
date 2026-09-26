@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Soundle</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <header class="navbar">
+
+        <div class="logo">
+            SOUNDLE
+        </div>
+
+        <div class="nav-text">
+            MUSIC GUESSING GAME
+        </div>
+
+    </header>
+
+
+    <main class="home-content">
+
+        <div class="eyebrow">
+            TODAY'S MYSTERY ARTIST
+        </div>
+
+        <h1>
+            Can you<br>
+            name the artist?
+        </h1>
+
+        <p class="description">
+            You get five guesses. Use the clues to
+            figure out who's hiding behind today's mystery.
+        </p>
+
+
+        <section class="hint-area">
+
+            <div class="small-label">
+                YOUR FIRST CLUE
+            </div>
+
+            <div class="hint-card">
+
+                <span class="quote">
+                    “
+                </span>
+
+                <p>
+                    {{ hint }}
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="guess-area">
+
+            <div class="small-label">
+                MAKE YOUR FIRST GUESS
+            </div>
+
+
+            <form
+                action="{{ url_for('first_guess') }}"
+                method="POST"
+                class="guess-form"
+            >
+
+                <div class="autocomplete">
+
+                    <input
+                        id="artistInput"
+                        type="text"
+                        name="artist"
+                        placeholder="Start typing an artist..."
+                        autocomplete="off"
+                        required
+                    >
+
+                    <div
+                        id="suggestions"
+                        class="suggestions"
+                    ></div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="guess-button"
+                >
+                    GUESS →
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <span>SOUNDLE</span>
+
+        <span>5 GUESSES • 1 MYSTERY</span>
+
+    </footer>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
