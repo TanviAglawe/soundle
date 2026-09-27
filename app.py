@@ -264,6 +264,14 @@ def artists_api():
         for artist in artists
     ])
 
+# -----------------------------
+# HEALTH CHECK
+# -----------------------------
+
+@app.route("/health")
+def health():
+    return jsonify({"status": "ok"})
+
 
 # -----------------------------
 # RUN
