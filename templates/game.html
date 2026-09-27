@@ -61,14 +61,20 @@
 
                 <div class="artist-side">
 
-                    <div class="artist-photo">
+    <div class="artist-photo">
 
-                        <span>
-                            {{ item.artist.name[0] }}
-                        </span>
+    {% if item.artist.image %}
+        <img
+            src="{{ url_for('static', filename='images/' + item.artist.image) }}"
+            alt="{{ item.artist.name }}"
+        >
+    {% else %}
+        <span>
+            {{ item.artist.name[0] }}
+        </span>
+    {% endif %}
 
-                    </div>
-
+</div>
                     <div class="artist-name">
                         {{ item.artist.name }}
                     </div>

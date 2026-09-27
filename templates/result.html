@@ -72,12 +72,18 @@
 
             <div class="answer-photo">
 
-                <span>
-                    {{ answer.name[0] }}
-                </span>
+    {% if answer.image %}
+        <img
+            src="{{ url_for('static', filename='images/' + answer.image) }}"
+            alt="{{ answer.name }}"
+        >
+    {% else %}
+        <span>
+            {{ answer.name[0] }}
+        </span>
+    {% endif %}
 
-            </div>
-
+</div>
 
             <div class="answer-info">
 
