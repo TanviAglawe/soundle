@@ -90,7 +90,7 @@ def first_guess():
 
         return redirect(url_for("result"))
 
-    # WRONG → GAME PAGE
+    # WRONG â†’ GAME PAGE
     return redirect(url_for("game"))
 
 
@@ -196,7 +196,6 @@ def compare_artists(guess, answer):
     )
 
     return {
-
         "genre":
             "correct"
             if guess["genre"] == answer["genre"]
@@ -227,6 +226,7 @@ def compare_artists(guess, answer):
             else "wrong"
     }
 
+
 # -----------------------------
 # RESULT PAGE
 # -----------------------------
@@ -256,6 +256,7 @@ def result():
         score=score
     )
 
+
 # -----------------------------
 # AUTOCOMPLETE API
 # -----------------------------
@@ -268,7 +269,8 @@ def artists_api():
     return jsonify([
         artist["name"]
         for artist in artists
-    ]) 
+    ])
+
 
 # -----------------------------
 # HEALTH CHECK
