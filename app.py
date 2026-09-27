@@ -1,4 +1,12 @@
-from flask import Flask, render_template, request, redirect, url_for, session, jsonify
+from flask import (
+    Flask,
+    render_template,
+    request,
+    redirect,
+    url_for,
+    session,
+    jsonify
+)
 import json
 import random
 import os
@@ -219,7 +227,6 @@ def compare_artists(guess, answer):
             else "wrong"
     }
 
-
 # -----------------------------
 # RESULT PAGE
 # -----------------------------
@@ -249,7 +256,6 @@ def result():
         score=score
     )
 
-
 # -----------------------------
 # AUTOCOMPLETE API
 # -----------------------------
@@ -262,7 +268,7 @@ def artists_api():
     return jsonify([
         artist["name"]
         for artist in artists
-    ])
+    ]) 
 
 # -----------------------------
 # HEALTH CHECK
