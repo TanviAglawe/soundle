@@ -595,3 +595,19 @@ footer {
     }
 
 }
+.how-to-play {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #ddd;
+}
+
+.how-to-play p {
+    margin: 10px 0 20px;
+}
+
+.how-to-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}

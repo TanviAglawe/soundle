@@ -61,20 +61,28 @@
 
                 <div class="artist-side">
 
-    <div class="artist-photo">
+                    <div class="artist-photo">
 
-    {% if item.artist.image %}
-        <img
-            src="{{ url_for('static', filename='images/' + item.artist.image) }}"
-            alt="{{ item.artist.name }}"
-        >
-    {% else %}
-        <span>
-            {{ item.artist.name[0] }}
-        </span>
-    {% endif %}
+                        {% if item.artist.image %}
 
-</div>
+                        <img
+                            src="{{ url_for(
+                                'static',
+                                filename='images/' + item.artist.image
+                            ) }}"
+                            alt="{{ item.artist.name }}"
+                        >
+
+                        {% else %}
+
+                        <span>
+                            {{ item.artist.name[0] }}
+                        </span>
+
+                        {% endif %}
+
+                    </div>
+
                     <div class="artist-name">
                         {{ item.artist.name }}
                     </div>
@@ -218,6 +226,53 @@
             </div>
 
         </div>
+
+
+        <!-- HOW TO PLAY -->
+
+        <section class="how-to-play">
+
+            <div class="small-label">
+                HOW TO PLAY
+            </div>
+
+            <p>
+                You have 5 guesses to find the mystery artist.
+            </p>
+
+            <div class="how-to-item">
+
+                <span class="legend-color correct"></span>
+
+                <span>
+                    Green means an exact match.
+                </span>
+
+            </div>
+
+
+            <div class="how-to-item">
+
+                <span class="legend-color close"></span>
+
+                <span>
+                    Yellow means the value is close.
+                </span>
+
+            </div>
+
+
+            <div class="how-to-item">
+
+                <span class="legend-color wrong"></span>
+
+                <span>
+                    Grey means the value is different.
+                </span>
+
+            </div>
+
+        </section>
 
     </main>
 
